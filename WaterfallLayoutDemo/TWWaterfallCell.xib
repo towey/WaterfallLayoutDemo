@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TWWaterfallCell">
+            <rect key="frame" x="0.0" y="0.0" width="154" height="139"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="154" height="139"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lBw-jY-MR1">
+                        <rect key="frame" x="0.0" y="0.0" width="154" height="139"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="lBw-jY-MR1" secondAttribute="bottom" id="0d3-NC-5VJ"/>
+                <constraint firstAttribute="trailing" secondItem="lBw-jY-MR1" secondAttribute="trailing" id="gOQ-OR-VxZ"/>
+                <constraint firstItem="lBw-jY-MR1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hte-BB-IKZ"/>
+                <constraint firstItem="lBw-jY-MR1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="q1B-sY-NrF"/>
+            </constraints>
+            <size key="customSize" width="154" height="139"/>
+            <connections>
+                <outlet property="bgImgView" destination="lBw-jY-MR1" id="lSB-8X-Nh2"/>
+            </connections>
+            <point key="canvasLocation" x="-45" y="10"/>
+        </collectionViewCell>
+    </objects>
+</document>
