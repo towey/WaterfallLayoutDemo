@@ -7,4 +7,4 @@
 3、设置 瀑布流列数 和 对应位置item的高度，具体使用方法可以参照demo<br>
 </div>
 
-![image](https://github.com/towey/WaterfallLayoutDemo/blob/master/waterfall.gif)
+![image](https://github.com/towey/WaterfallLayoutDemo/blob/master/gif/waterfall.gif)
