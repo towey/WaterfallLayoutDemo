@@ -1,6 +1,7 @@
 # 瀑布流布局(自定义UICollectionViewLayout)
 
-<h3>使用说明：</h3>
+## 使用说明：
+
 <div>
 1、将TWWaterfallLayout文件夹拖到项目中，添加布局头文件<br>
 2、为UICollectionView添加此布局<br>
