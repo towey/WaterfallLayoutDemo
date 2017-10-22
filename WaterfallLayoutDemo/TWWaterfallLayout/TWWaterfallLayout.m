@@ -80,7 +80,7 @@
 //        将item属性添加到数组中
         [self.attrsArray addObject:attributes];
         
-//        增加最短列对应的高度，因为新的item即将添加到高度最短那一列
+//        增加最短列对应的高度，因为新的item将添加到高度最短这一列中
         self.heightArray[minIndex] = @([minH floatValue] + itemH + self.minimumLineSpacing);
         
     }
