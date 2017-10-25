@@ -5,6 +5,7 @@
 ![image](https://github.com/towey/WaterfallLayoutDemo/blob/master/gif/waterfall.gif)
 
 <br/>
+
 ### 使用说明：
 
 1、将TWWaterfallLayout文件夹拖到项目中，添加布局头文件
